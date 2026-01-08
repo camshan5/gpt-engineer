@@ -33,7 +33,7 @@ For **development**:
 - `poetry install`
 - `poetry shell` to activate the virtual environment
 
-We actively support Python 3.10 - 3.12. The last version to support Python 3.8 - 3.9 was [0.2.6](https://pypi.org/project/gpt-engineer/0.2.6/).
+We actively support Python 3.13+. The last version to support Python 3.8 - 3.9 was [0.2.6](https://pypi.org/project/gpt-engineer/0.2.6/).
 
 ### Setup API key
 

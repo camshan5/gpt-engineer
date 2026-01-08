@@ -12,9 +12,6 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
 ]
@@ -24,7 +21,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.15"
+python = ">=3.13,<3.15"
 openai = "^1.0"
 termcolor = "2.3.0"
 typer = ">=0.3.2"
@@ -97,12 +94,12 @@ doc = [
 [tool.ruff]
 select = ["F", "E", "W", "I001"]
 show-fixes = false
-target-version = "py310"
+target-version = "py313"
 task-tags = ["TODO", "FIXME"]
 extend-ignore = ["E501", "E722"]
 
 [tool.black]
-target-version = ["py310", "py311", "py312", "py313", "py314"]
+target-version = ["py313", "py314"]
 
 [tool.ruff.isort]
 known-first-party = []
